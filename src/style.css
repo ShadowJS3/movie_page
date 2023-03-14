@@ -9,7 +9,7 @@
 body {
 	background: linear-gradient(180deg, #3a2f79 0%, rgba(6, 42, 96, 0) 186px),
 		url(./images/background.png) no-repeat;
-	background-position: center 0px;
+	background-position: center -5px;
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100vw;
@@ -30,7 +30,8 @@ nav {
 #menu ul {
 	list-style-type: none;
 }
-#menu li a, #menu li img {
+#menu li a,
+#menu li img {
 	color: white;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -45,7 +46,7 @@ nav {
 #menu ul li:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 	border-radius: 8px;
-    cursor: pointer;
+	cursor: pointer;
 }
 #menu-left {
 	display: flex;
