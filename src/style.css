@@ -14,6 +14,7 @@
     left: 0;
     right: 70%;
     transform: translateY(-50%);
+    
 }
 
 .menu ul {
@@ -21,6 +22,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    
 }
 
 .menu li {
@@ -46,4 +48,8 @@ menu li a {
 
 .menu ul li:hover {
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.signUp {
+    color: white;
 }
