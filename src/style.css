@@ -1,49 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
 }
 /*Vamos tentar fazer com mobile first, mas vamos ter que adaptar aquele layout para o Mobile*/
-.menu {
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right: 70%;
-    transform: translateY(-50%);
+body {
+	background: linear-gradient(180deg, #3a2f79 0%, rgba(6, 42, 96, 0) 186px),
+		url(./images/background.png) no-repeat;
+	background-position: center 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100vw;
+	height: 100vh;
 }
-
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+nav {
+	display: flex;
+	justify-content: center;
 }
-
-.menu li {
-    display: inline-block;
+#menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+	width: 90%;
 }
-
-menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#menu ul {
+	list-style-type: none;
 }
-.menu ul li {
-    display: inline-block;
-    margin: 0 40px;
+#menu li a, #menu li img {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.3rem;
+	line-height: 38px;
 }
-
-.menu ul li a {
-    color: #ffffff;
-    text-decoration: none;
+#menu ul li a {
+	color: #ffffff;
+	text-decoration: none;
 }
-
-.menu ul li:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+#menu ul li:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 8px;
+    cursor: pointer;
+}
+#menu-left {
+	display: flex;
+	gap: 120px;
+}
+#menu-right {
+	display: flex;
+	align-items: center;
+	gap: 40px;
 }
