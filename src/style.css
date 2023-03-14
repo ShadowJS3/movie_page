@@ -6,12 +6,7 @@
 	font-family: "Poppins", sans-serif;
 }
 /*Vamos tentar fazer com mobile first, mas vamos ter que adaptar aquele layout para o Mobile*/
-body {
-	background: linear-gradient(180deg, #3a2f79 0%, rgba(6, 42, 96, 0) 186px),
-		url(./images/background.png) no-repeat;
-	background-position: center -5px;
-	background-size: cover;
-	background-attachment: fixed;
+body {	
 	width: 100vw;
 	height: 100vh;
 }
@@ -24,7 +19,7 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-top: 100px;
+	margin-top: 50px;
 	width: 90%;
 }
 #menu ul {
