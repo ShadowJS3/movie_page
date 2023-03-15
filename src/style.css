@@ -74,3 +74,11 @@ nav {
 	line-height: 50px;
 	text-align: center;
 }
+
+#next-movies-tittle {
+	color: #ffffff;
+	position: relative;
+	bottom: 70px;
+	left: 150px;
+
+}
