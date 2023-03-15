@@ -6,7 +6,7 @@
 	font-family: "Poppins", sans-serif;
 }
 /*Vamos tentar fazer com mobile first, mas vamos ter que adaptar aquele layout para o Mobile*/
-body {	
+body {
 	width: 100vw;
 	height: 100vh;
 }
@@ -52,10 +52,33 @@ nav {
 	align-items: center;
 	gap: 40px;
 }
-
-
+h1 {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5rem;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	max-width: 640px;
+}
+h2 {
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 2rem;
+	max-width: 640px;
+	letter-spacing: 2px;
+}
+.bold {
+	font-weight: 700;
+	text-transform: uppercase;
+}
 #info {
 	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: -30px;
 }
 
 #nextFilmes {
@@ -80,5 +103,4 @@ nav {
 	position: relative;
 	bottom: 70px;
 	left: 150px;
-
 }
