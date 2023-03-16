@@ -55,13 +55,15 @@ nav {
 }
 main{
 	display: flex;
-	width: 100%;
+	width: 100vw;
 	justify-content: center;
+	background-color: red;
 }
 #movie-info{
 	display: flex;
 	flex-direction: column;
 	width: 90%;
+	background-color: blue;
 }
 h1 {
 	font-family: "Poppins";
@@ -97,7 +99,7 @@ h2 {
 #resumo p {
 	color: #ffffff;
 	font-weight: 700;
-	font-size: 1.2em;
+	font-size: 1em;
 	line-height: 1.3em;
 	letter-spacing: 0.01em;
 	text-align: justify;
@@ -107,6 +109,7 @@ h2 {
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
+	cursor: pointer;
 }
 #filmes {
 	position: relative;
