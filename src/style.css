@@ -6,7 +6,6 @@
 	font-family: "Poppins", sans-serif;
 	overflow: hidden;
 }
-/*Vamos tentar fazer com mobile first, mas vamos ter que adaptar aquele layout para o Mobile*/
 body {
 	width: 100vw;
 	height: 100vh;
@@ -105,8 +104,6 @@ h2 {
 	text-align: justify;
 }
 footer {
-	width: 100vw;
-	display: flex;
 	flex-wrap: wrap;
 }
 #filmes {
@@ -125,7 +122,7 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 10px;
-	max-width: 1600px;
+	width: 90%;
 }
 #nextFilmes img {
 	width: 275px;
@@ -139,3 +136,8 @@ footer {
 	line-height: 45px;
 	letter-spacing: 0.01em;
 }
+/* #nextMovies{
+	display: flex;
+	gap: 30px;
+	align-items: center;
+} */
