@@ -53,12 +53,13 @@ nav {
 	align-items: center;
 	gap: 40px;
 }
-main{
+main {
 	display: flex;
 	width: 100vw;
 	justify-content: center;
+	flex-wrap: wrap;
 }
-#movie-info{
+#movie-info {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
@@ -90,7 +91,7 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 #resumo {
 	width: 490px;
@@ -103,26 +104,36 @@ h2 {
 	letter-spacing: 0.01em;
 	text-align: justify;
 }
-#nextFilmes {
-	background-color: transparent;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	cursor: pointer;
+footer {
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
 }
 #filmes {
-	position: relative;
 	display: flex;
 	justify-content: center;
-	top: 450px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
+	flex-direction: column;
+	width: 90%;
+	margin-top: 60px;
 }
-
-#next-movies-tittle {
+#nextFilmes {
+	cursor: pointer;
+	background: rgba(103, 101, 113, 0.24);
+	border: 0.957587px solid rgba(245, 245, 245, 0.1);
+	backdrop-filter: blur(14.3638px);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#nextFilmes img {
+	width: 275px;
+	height: 195px;
+}
+#next-movies-tittle h2 {
 	color: #ffffff;
-	position: relative;
-	bottom: 70px;
-	left: 150px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.4em;
+	line-height: 45px;
+	letter-spacing: 0.01em;
 }
