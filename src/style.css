@@ -57,13 +57,12 @@ main{
 	display: flex;
 	width: 100vw;
 	justify-content: center;
-	background-color: red;
 }
 #movie-info{
 	display: flex;
 	flex-direction: column;
-	width: 90%;
-	background-color: blue;
+	width: 100vw;
+	margin-left: 100px;
 }
 h1 {
 	font-family: "Poppins";
