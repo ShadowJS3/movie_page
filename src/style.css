@@ -127,6 +127,11 @@ footer {
 #nextFilmes img {
 	width: 275px;
 	height: 195px;
+	transition: ease-out .5s;
+}
+#nextFilmes img:hover{
+	scale: 1.02;
+	transition: ease-in .5s;
 }
 #next-movies-tittle h2 {
 	color: #ffffff;
@@ -136,8 +141,3 @@ footer {
 	line-height: 45px;
 	letter-spacing: 0.01em;
 }
-/* #nextMovies{
-	display: flex;
-	gap: 30px;
-	align-items: center;
-} */
