@@ -15,5 +15,7 @@ async function loadingInfo() {
 	        background-size: cover;
 	        background-attachment: fixed;
             `);
+	let over = document.getElementById("overview")
+	over.innerHTML = json.overview
 }
 loadingInfo();
