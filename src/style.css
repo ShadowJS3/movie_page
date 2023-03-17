@@ -119,7 +119,7 @@ footer {
 	border: 0.957587px solid rgba(245, 245, 245, 0.1);
 	backdrop-filter: blur(14.3638px);
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	padding: 0 10px;
 	width: 90%;
