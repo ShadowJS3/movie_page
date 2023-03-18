@@ -103,6 +103,7 @@ h2 {
 	letter-spacing: 0.01em;
 	text-align: justify;
 }
+
 footer {
 	flex-wrap: wrap;
 }
@@ -142,8 +143,9 @@ footer {
 	letter-spacing: 0.01em;
 }
 
-#next {
+#show-movies {
 	border: none;
 	background-color: transparent;
 	cursor: pointer;
 }
+
