@@ -103,7 +103,32 @@ h2 {
 	letter-spacing: 0.01em;
 	text-align: justify;
 }
+button{
+	display: flex;
+	border: none;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	background: #24A3FF;
+	border-radius: 35px;
+	color: #FFF;
+	width: 200px;
+	height: 40px; 
+  }
 
+a {
+	position: relative;
+	top: 5px;
+	color: #ffffff;
+	font-size: large;
+}
+
+#watch-now{
+	display: flex;
+	color: #ffffff;
+	gap: 25px;
+}  
 footer {
 	flex-wrap: wrap;
 }
