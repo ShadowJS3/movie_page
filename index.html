@@ -1,84 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./src/style.css" />
-		<title>Movie Page</title>
-	</head>
-	<body id="body">
-		<header>
-			<nav>
-				<div id="menu">
-					<ul id="menu-left">
-						<li><a href="#">Movies</a></li>
-						<li><a href="#">TV Show</a></li>
-						<li><a href="#">Documentaries</a></li>
-					</ul>
-					<ul id="menu-right">
-						<li><img src="./src/images/lupa.svg" alt="lupa" /></li>
-						<li><img src="./src/images/sino.svg" alt="sino" /></li>
-						<li><a href="#">Sign Up</a></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		<!-- Info do Filme -->
-		<main>
-			<section id="movie-info">
-				<div id="info">
-					<h1>Godzilla</h1>
-					<h2>
-						<span class="bold">King</span> of the
-						<span class="bold">monster</span>
-					</h2>
-				</div>
-				<div id="resumo">
-					<p id="overview">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./src/style.css" />
+	<title>Movie Page</title>
+</head>
+
+<body id="body">
+	<header>
+		<nav>
+			<div id="menu">
+				<ul id="menu-left">
+					<li><a href="#">Movies</a></li>
+					<li><a href="#">TV Show</a></li>
+					<li><a href="#">Documentaries</a></li>
+				</ul>
+				<ul id="menu-right">
+					<li><img src="./src/images/lupa.svg" alt="lupa" /></li>
+					<li><img src="./src/images/sino.svg" alt="sino" /></li>
+					<li><a href="#">Sign Up</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- Info do Filme -->
+	<main>
+		<section id="movie-info">
+			<div id="info">
+				<h1>Godzilla</h1>
+				<h2>
+					<span class="bold">King</span> of the
+					<span class="bold">monster</span>
+				</h2>
+			</div>
+			<div id="resumo">
+				<p id="overview">
 					Membros da agência Monarch enfrentam monstros gigantescos,
 					incluindo o poderoso Godzilla, que entra em choque com
 					Mothra, Rodan e seu maior inimigo, King Ghidorah, o monstro
 					de três cabeças. Essas antigas superespécies disputam a
 					supremacia, deixando a própria existência da humanidade em
 					risco.
-					</p>
-				</div>
-				<div id="stars">
-					<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
-					<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
-					<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
-					<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
-					<img src="./src/images/estrela-vazia.svg" alt="" srcset="">
-				</div>
-				<div id="watch-now">
-					<button>
+				</p>
+			</div>
+			<div id="stars">
+				<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
+				<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
+				<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
+				<img src="./src/images/estrela-cheia.svg" alt="" srcset="">
+				<img src="./src/images/estrela-vazia.svg" alt="" srcset="">
+			</div>
+			<div id="watch-now">
+				<button>
 					<img src="./src/images/play.svg"> Watch Now
-					</button>
-					<a href="#">Trailer</a>
-					</div>
-			</section>
+				</button>
+				<a href="#">Trailer</a>
+			</div>
+		</section>
 
 		<footer id="filmes">
 			<div id="next-movies-tittle">
 				<h2>Next Movie</h2>
 			</div>
 			<section id="nextMovies">
-			<div id="nextFilmes">
-				<img src="./src/images/movie1.png" alt="" srcset="" />
-				<img src="./src/images/movie1-2.png" style="width: 300px; height: 228px;" alt="" srcset="" />
-				<img src="./src/images/movie2.png" alt="" srcset="" />
-				<img src="./src/images/movie3.png" alt="" srcset="" />
-				<img src="./src/images/movie4.png" alt="" srcset="" />
-			</div>
-			<form>
-				<button onclick="passarFilmes" id="show-movies">
-					<img src="./src/images/seta.svg" alt="" srcset="">
-				</button>
-			</form>
-		</section>
+				<div id="nextFilmes">
+					<img src="./src/images/movie1.png" alt="" srcset="" />
+					<img src="./src/images/movie1-2.png" style="width: 300px; height: 228px;" alt="" srcset="" />
+					<img src="./src/images/movie2.png" alt="" srcset="" />
+					<img src="./src/images/movie3.png" alt="" srcset="" />
+					<img src="./src/images/movie4.png" alt="" srcset="" />
+				</div>
+				<form>
+					<button onclick="passarFilmes" id="show-movies">
+						<img src="./src/images/seta.svg" alt="" srcset="">
+					</button>
+				</form>
+			</section>
 		</footer>
 		<!-- Fim das Informações -->
 		<script src="./src/script.js"></script>
-	</body>
+</body>
+
 </html>

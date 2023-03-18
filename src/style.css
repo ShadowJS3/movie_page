@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,14 +7,17 @@
 	font-family: "Poppins", sans-serif;
 	overflow: hidden;
 }
+
 body {
 	width: 100vw;
 	height: 100vh;
 }
+
 nav {
 	display: flex;
 	justify-content: center;
 }
+
 #menu {
 	display: flex;
 	flex-direction: row;
@@ -22,9 +26,11 @@ nav {
 	margin-top: 50px;
 	width: 90%;
 }
+
 #menu ul {
 	list-style-type: none;
 }
+
 #menu li a,
 #menu li img {
 	color: white;
@@ -34,36 +40,43 @@ nav {
 	font-size: 1.3rem;
 	line-height: 38px;
 }
+
 #menu ul li a {
 	color: #ffffff;
 	text-decoration: none;
 }
+
 #menu ul li:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 	border-radius: 8px;
 	cursor: pointer;
 }
+
 #menu-left {
 	display: flex;
 	gap: 120px;
 }
+
 #menu-right {
 	display: flex;
 	align-items: center;
 	gap: 40px;
 }
+
 main {
 	display: flex;
 	width: 100vw;
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
 #movie-info {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
 	margin-left: 100px;
 }
+
 h1 {
 	font-family: "Poppins";
 	font-style: normal;
@@ -74,6 +87,7 @@ h1 {
 	letter-spacing: 1.5px;
 	margin-bottom: -30px;
 }
+
 h2 {
 	font-weight: 300;
 	text-transform: uppercase;
@@ -81,10 +95,12 @@ h2 {
 	line-height: 69px;
 	letter-spacing: 0.01em;
 }
+
 .bold {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+
 #info {
 	color: #ffffff;
 	display: flex;
@@ -92,9 +108,11 @@ h2 {
 	justify-content: flex-start;
 	margin-top: 50px;
 }
+
 #resumo {
 	width: 490px;
 }
+
 #resumo p {
 	color: #ffffff;
 	font-weight: 700;
@@ -103,19 +121,24 @@ h2 {
 	letter-spacing: 0.01em;
 	text-align: justify;
 }
-button{
+
+#stars {
+	margin: 30px 0;
+}
+
+button {
 	display: flex;
 	border: none;
 	cursor: pointer;
 	justify-content: center;
 	align-items: center;
 	gap: 15px;
-	background: #24A3FF;
+	background: #24a3ff;
 	border-radius: 35px;
-	color: #FFF;
+	color: #fff;
 	width: 200px;
-	height: 40px; 
-  }
+	height: 40px;
+}
 
 a {
 	position: relative;
@@ -124,14 +147,16 @@ a {
 	font-size: large;
 }
 
-#watch-now{
+#watch-now {
 	display: flex;
 	color: #ffffff;
 	gap: 25px;
-}  
+}
+
 footer {
 	flex-wrap: wrap;
 }
+
 #filmes {
 	display: flex;
 	justify-content: center;
@@ -139,6 +164,7 @@ footer {
 	width: 90%;
 	margin-top: 60px;
 }
+
 #nextFilmes {
 	cursor: pointer;
 	background: rgba(103, 101, 113, 0.24);
@@ -150,15 +176,18 @@ footer {
 	padding: 0 10px;
 	width: 90%;
 }
+
 #nextFilmes img {
 	width: 275px;
 	height: 195px;
-	transition: ease-out .5s;
+	transition: ease-out 0.5s;
 }
-#nextFilmes img:hover{
+
+#nextFilmes img:hover {
 	scale: 1.02;
-	transition: ease-in .5s;
+	transition: ease-in 0.5s;
 }
+
 #next-movies-tittle h2 {
 	color: #ffffff;
 	font-style: normal;
@@ -173,4 +202,3 @@ footer {
 	background-color: transparent;
 	cursor: pointer;
 }
-
