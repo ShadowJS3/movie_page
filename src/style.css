@@ -141,3 +141,9 @@ footer {
 	line-height: 45px;
 	letter-spacing: 0.01em;
 }
+
+#next {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
