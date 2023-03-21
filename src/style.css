@@ -106,7 +106,6 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	/* margin-top: 50px; */
 }
 
 #resumo {
@@ -125,6 +124,7 @@ h2 {
 #stars {
 	margin: 20px 0;
 }
+
 button {
 	display: flex;
 	border: none;
@@ -142,12 +142,14 @@ button {
 	width: 238px;
 	height: 60px;
 }
+
 a {
 	position: relative;
 	top: 5px;
 	color: #ffffff;
 	font-size: large;
 }
+
 #watch-now {
 	display: flex;
 	color: #ffffff;
@@ -155,6 +157,7 @@ a {
 	flex-direction: row;
 	gap: 20px;
 }
+
 #watch-now a {
 	font-family: "Poppins";
 	font-style: normal;
@@ -165,9 +168,11 @@ a {
 	text-decoration-line: underline;
 	color: #24a3ff;
 }
+
 footer {
 	flex-wrap: wrap;
 }
+
 #filmes {
 	display: flex;
 	justify-content: center;
@@ -175,6 +180,7 @@ footer {
 	width: 90%;
 	margin-top: 30px;
 }
+
 #nextFilmes {
 	cursor: pointer;
 	background: rgba(103, 101, 113, 0.24);
@@ -186,15 +192,18 @@ footer {
 	padding: 0 10px;
 	width: 90%;
 }
+
 #nextFilmes img {
 	width: 275px;
 	height: 195px;
 	transition: ease-out 0.5s;
 }
+
 #nextFilmes img:hover {
 	scale: 1.02;
 	transition: ease-in 0.5s;
 }
+
 #next-movies-tittle h2 {
 	color: #ffffff;
 	font-style: normal;
@@ -203,18 +212,21 @@ footer {
 	line-height: 45px;
 	letter-spacing: 0.01em;
 }
+
 #show-movies {
 	border: none;
 	background-color: transparent;
 	cursor: pointer;
 }
-#nextMovies{
+
+#nextMovies {
 	display: flex;
 	flex-direction: row;
 
 	align-items: center;
 }
-#nextMovies button img{
+
+#nextMovies button img {
 	width: 42px;
 	height: 66px;
 	margin-left: -150px;
